@@ -1,7 +1,7 @@
 # Unsupervised Learning Framework: K-Means Clustering for High-Dimensional Behavioural Segmentation
 
 ![Project Type](https://img.shields.io/badge/Project-Unsupervised_Learning-blue)
-![Course](https://img.shields.io/badge/University-Cambridge_C101-gold)
+![Course](https://img.shields.io/badge/Client-Cambridge_DS_C101-gold)
 ![Algorithm](https://img.shields.io/badge/Algorithm-K--Means_Clustering-green)
 
 ## 📌 Project Overview
