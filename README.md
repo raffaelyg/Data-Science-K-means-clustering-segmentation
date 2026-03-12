@@ -69,18 +69,23 @@ The analysis successfully converged on 5 distinct clusters, providing a clear ma
 
 ### III. Behavioural Cluster Mapping
 
+![PCA](/images/PCA.png) 
+
+![t-SNE](/images/t-sne.png)
 
 
-* **Interpretation**: This 2D projection reveals the five core personas. Each colour-coded cluster represents a specific "Job to be Done" for the brand.
+* **Interpretation**: Both PCA and t-SNE confirmed that the 3-cluster model is the most stable. The visual separation between the three groups indicates that the model has successfully captured the primary "Behavioural Drivers" without over-fitting the data.
+* The 3-cluster projection reveals three core personas, each representing a specific "Job to be Done" for the brand.
+
+![distribution](/images/distribution.png)
 
 
 | Cluster	| Archetype	| Behavioural Insight | 
 |:---:|:---:|:---|
-| Cluster 1	| The Target Group	| **High Income + High Spending.** The "Whales" driving top-line revenue. | 
-| Cluster 2	| Budget-Conscious	| **Low Income + Low Spending.** Highly price-sensitive; requires entry-level SKUs. | 
-| Cluster 3	| Average Shoppers	| **Mid Income + Mid Spending.** The "Mainstream Middle" core. | 
-| Cluster 4	| High-Potential	| **High Income + Low Spending.** Wealthy but cautious; requires "Pull" marketing. | 
-| Cluster 5	| Impulse Buyers	| **Low Income + High Spending.** Reactive to trends and flash sales. | 
+| Cluster 0	| The Prime Target	| High Spending Score + Mid-to-High Income. This group represents the "Value Engine" of the brand. | 
+| Cluster 1	| The Mature/Conservative	| Higher Age + Lower Spending. Wealthy but cautious; requires "Pull" marketing to re-engage. | 
+| Cluster 2	| The Emerging/Active	| Lower Age + High Spending. Reactive to trends and social commerce (Douyin/Kuaishou) triggers. | 
+
 
 
 ## 🔑 Key Takeaways & Strategic Applications
