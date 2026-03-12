@@ -49,19 +49,27 @@ The analysis successfully converged on 5 distinct clusters, providing a clear ma
 
 ### I. Model Stability: The Elbow Plot
 
-elbow_method_optimization.png
+![Elbow_test.png](/images/Elbow_test.png)
 
 * **Interpretation**: The "Elbow" point at K=5 signifies the optimal balance between cluster granularity and model simplicity. Beyond this point, the reduction in WCSS becomes marginal, indicating diminishing returns in segment clarity.
 
 ### II. Silhouette Analysis
 
-silhouette_score_validation.png
+| *n=* | Silhouette Analysis | *n=* | Silhouette Analysis | 
+| :---: | :---: | :---: | :---: | 
+| 1 | n/a | 6 | ![Cluster n=6.png](/images/Unknown-29.png) |
+| 2 | ![Cluster n=2.png](/images/Unknown-26.png) | 7 | ![Cluster n=7.png](/images/Unknown-30.png) |
+| 3 | ![Cluster n=3.png](/images/Unknown-26.png) | 8 | ![Cluster n=8.png](/images/Unknown-31.png) |
+| 4 | ![Cluster n=4.png](/images/Unknown-27.png) | 9 | ![Cluster n=9.png](/images/Unknown-32.png) |
+| 5 | ![Cluster n=5.png](/images/Unknown-28.png) | 10 | ![Cluster n=10.png](/images/Unknown-33.png) |
+
+![Dendrogram](/images/Heriarchical%20Dendrogram.png)
 
 * **Interpretation**: This metric validated the intra-cluster density. A high silhouette score across the 5 clusters confirmed that the segments are well-separated and internally consistent.
 
 ### III. Behavioural Cluster Mapping
 
-income_vs_spending_clusters.png
+
 
 * **Interpretation**: This 2D projection reveals the five core personas. Each colour-coded cluster represents a specific "Job to be Done" for the brand.
 
